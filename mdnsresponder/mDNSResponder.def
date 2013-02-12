@@ -1,0 +1,31 @@
+
+EXPORTS
+	DNSServicesInitialize									@1
+	DNSServicesFinalize										@2
+	DNSResolverCreate										@3
+	DNSResolverRelease										@4
+	DNSBrowserCreate										@5
+	DNSBrowserRelease										@6
+	DNSBrowserStartDomainSearch								@7
+	DNSBrowserStopDomainSearch								@8
+	DNSBrowserStartServiceSearch							@9
+	DNSBrowserStopServiceSearch								@10
+	DNSRegistrationCreate									@11
+	DNSNoSuchServiceRegistrationCreate						@12
+	DNSRegistrationRelease									@13
+	DNSRegistrationUpdate									@14
+	DNSDomainRegistrationCreate								@15
+	DNSDomainRegistrationRelease							@16
+	DNSHostRegistrationCreate								@17
+	DNSHostRegistrationRelease								@18
+	DNSDynamicTextRecordBuildEscaped						@19
+	DNSDynamicTextRecordAppendCString						@20
+	DNSDynamicTextRecordAppendData							@21
+	DNSDynamicTextRecordRelease								@22
+	DNSTextRecordAppendCString								@23
+	DNSTextRecordAppendData									@24
+	DNSTextRecordEscape										@25
+	DNSNameValidate											@26
+	DNSServiceTypeValidate									@27
+	DNSTextRecordValidate									@28
+		
